@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cardápio</title>
     <link rel="stylesheet" href="css\style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header>
         <div id="nav">
             <h1>Nome do seu restaurante</h1>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Home</a>
-                <a href="#">Contato</a>
-                <a href="#">Sobre</a>
+                <!-- <div class="links"> -->
+                    <a href="#inicio">Home</a>
+                    <a href="#title-pratos">Cardápio</a>
+                    <a href="#contato">Contato</a>
+                    <a href="#sobre">Sobre</a>
+                <!-- </div> -->
             </nav>
         </div>
     </header>
@@ -23,75 +26,107 @@
             <h2>Nos entregamos o que você merece</h2>
             <h3>Ingredientes autenticos e um sabor inesquecível</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, nisi autem. At sequi quibusdam quis?</p>
-            <p>Modi tempore necessitatibus totam beatae expedita consequuntur dolor debitis officiis ut! Tempora placeat exercitationem quas.</p></p>
+
+            <a href="#title-pratos">Ver cardápio</a>
+        </div>
+        <div id="title-pratos">
+            <h1>Nosso cardápio</h1>
+            <p>Escolha uma categoria</p>
+            <div>
+                <button>Entradas</button>
+                <button>Principais</button>
+                <button>Sobremesas</button>
+                <button>Bebidas</button>
+            </div>
         </div>
         <div class="cont-pratos">
             <div class="pacote">
-                <div class="image"></div>
+                <div class="image" id="image1"></div>
                 <h3>Nome</h3>
-                <p class="descricao"></p>
-                <p>Descrição</p>
+                <p class="descricao">Descrição</p>
+                <p class="preco">Preço</p>
+            </div>
+            <div class="pacote">
+                <div class="image" id="image2"></div>
+                <h3>Nome</h3>
+                <p class="descricao">Descrição</p>
+                <p class="preco">Preço</p>
+            </div>
+            <div class="pacote">
+                <div class="image" id="image3"></div>
+                <h3>Nome</h3>
+                <p class="descricao">Descrição</p>
+                <p class="preco">Preço</p>
+            </div>
+            <div class="pacote">
+                <div class="image" id="image4"></div>
+                <h3>Nome</h3>
+                <p class="descricao">Descrição</p>
+                <p class="preco">Preço</p>
+            </div>
+            <div class="pacote">
+                <div class="image" id="image5"></div>
+                <h3>Nome</h3>
+                <p class="descricao">Descrição</p>
                 <p class="preco">Preço</p>
             </div>
             <div class="pacote">
                 <div class="image"></div>
                 <h3>Nome</h3>
-                <p class="descricao"></p>
-                <p>Descrição</p>
+                <p class="descricao">Descrição</p>
                 <p class="preco">Preço</p>
             </div>
             <div class="pacote">
                 <div class="image"></div>
                 <h3>Nome</h3>
-                <p class="descricao"></p>
-                <p>Descrição</p>
+                <p class="descricao">Descrição</p>
                 <p class="preco">Preço</p>
             </div>
             <div class="pacote">
                 <div class="image"></div>
                 <h3>Nome</h3>
-                <p class="descricao"></p>
-                <p>Descrição</p>
+                <p class="descricao">Descrição</p>
                 <p class="preco">Preço</p>
             </div>
             <div class="pacote">
                 <div class="image"></div>
                 <h3>Nome</h3>
-                <p class="descricao"></p>
-                <p>Descrição</p>
+                <p class="descricao">Descrição</p>
                 <p class="preco">Preço</p>
             </div>
             <div class="pacote">
                 <div class="image"></div>
                 <h3>Nome</h3>
-                <p class="descricao"></p>
-                <p>Descrição</p>
+                <p class="descricao">Descrição</p>
                 <p class="preco">Preço</p>
             </div>
             <div class="pacote">
                 <div class="image"></div>
                 <h3>Nome</h3>
-                <p class="descricao"></p>
-                <p>Descrição</p>
+                <p class="descricao">Descrição</p>
                 <p class="preco">Preço</p>
             </div>
             <div class="pacote">
                 <div class="image"></div>
                 <h3>Nome</h3>
-                <p class="descricao"></p>
-                <p>Descrição</p>
+                <p class="descricao">Descrição</p>
                 <p class="preco">Preço</p>
             </div>
         </div>
     </main>
                 
-                <footer>
-            <div class="contato">
-                <p></p>
-            </div>
+    <footer>
+        <div id="sobre">
+            <h3>Sobre nós</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quas dolorum nisi, doloribus illum tenetur suscipit beatae itaque repellendus sed nulla ad quia, magni in perferendis mollitia. Quidem, sequi hic?</p>
+        </div>
 
-        <div class="sobre">
-            <p></p>
+        <div id="contato">
+            <h3>Entre em contato</h3>
+            <p>📍 Florianópolis - SC</p>
+            <p>📱 (00) 00000-0000</p>
+            <p>🕐 Terça a domingo, das 18h às 23h</p>
+            <p> &copy; 2026 Sabor & Brasa. Todos os direitos reservado</p>
         </div>
     </footer>
     
