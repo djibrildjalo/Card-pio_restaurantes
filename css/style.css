@@ -49,11 +49,13 @@ nav a:hover{
     padding: 1.5rem;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #inicio h2{
     font-size: 2.3rem;
-    margin-top: 6rem;
 }
 
 #inicio h3{
@@ -65,8 +67,6 @@ nav a:hover{
 
 #inicio p{
     font-size: 1.3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     max-width: 900px;
 }
 
@@ -76,9 +76,10 @@ nav a:hover{
     padding: 15px;
     border-radius: 5px;
     transition: 1s;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-top: 3rem;
+    max-width: 120px;
 }
 
 #inicio a:hover{
